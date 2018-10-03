@@ -1,2 +1,2 @@
-# cis115
+# CIS 115
 FTCC CIS115
