@@ -28,12 +28,8 @@ def main():
     bob.forward(0)
     christine.forward(size*2)
 
-    for Turtle in (alex, bob, christine):
-        drawPolygon(sides, size)
-
-    #drawPolygon (alex, sides, size)
-    #drawPolygon (bob, sides, size)
-    #drawPolygon (christine, sides, size)
+    for t in (alex, bob, christine):
+        drawPolygon(t, sides, size)
 
 def drawPolygon (t, sides, size):
     """uses turtles to draw a n sided polygon
