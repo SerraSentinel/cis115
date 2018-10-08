@@ -78,6 +78,9 @@ def circle(t, r):
     """
     arc(t, r, 360)
 
+def draw_pie(t, n, length):
+    angle = 360/n
+    polyline(t, n, length, angle)
 
 # the starting point of our program
 def main():
