@@ -84,7 +84,7 @@ def main():
     world = TurtleWorld()    
 
     bob = Turtle()
-    bob.delay = 0.000001
+    bob.delay = 0.0001
 
     # draw a circle centered on the origin
     radius = 100
@@ -111,6 +111,15 @@ def main():
     pd(bob)
     square(bob, radius*2)
 
+    pu(bob)
+    lt(bob)
+    fd(bob, radius)
+    rt(bob)
+    fd(bob, radius)
+    rt(bob)
+    fd(bob, radius)
+    pd(bob)
+    polyline(bob, 3, radius, 120)
     wait_for_user()
 
 # the following condition checks whether we are
